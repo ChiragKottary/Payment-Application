@@ -9,7 +9,7 @@ const authMiddleware = (req,res,next)=>{
     //     return res.status(403).json({
     //         message : "not auth1"
     //     });
-    // }
+    // } .split(" ")[1]
 
     const token = authHeader;
 

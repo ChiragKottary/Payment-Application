@@ -16,6 +16,7 @@ export const Users = () => {
             }
         } )
         .then(response =>{
+            console.log(response.data);
             setUsers(response.data.user)
         },)
     },[filter])

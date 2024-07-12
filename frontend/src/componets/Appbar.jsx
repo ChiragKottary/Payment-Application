@@ -1,15 +1,27 @@
+import { useEffect, useState } from "react";
+import {jwtDecode} from 'jwt-decode';
+
 export const Appbar = () => {
+// const[fname,setfname] = useState("");
+//     const token = localStorage.getItem("token");
+//     useEffect(()=>{
+//         if (token) {
+//             const decodedToken = jwtDecode(token);
+//             setfname(decodedToken.firstname); 
+//         }
+//     },[])
+        
     return <div className="shadow h-14 flex justify-between">
         <div className="flex flex-col justify-center h-full ml-4">
             PayTM App
         </div>
         <div className="flex">
             <div className="flex flex-col justify-center h-full mr-4">
-                Hello
+                hee
             </div>
             <div className="rounded-full h-12 w-12 bg-slate-200 flex justify-center mt-1 mr-2">
                 <div className="flex flex-col justify-center h-full text-xl">
-                    U
+                    {/* {fname[0].toUpperCase()} */}
                 </div>
             </div>
             <div className="pt-3">

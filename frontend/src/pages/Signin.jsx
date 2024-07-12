@@ -35,7 +35,7 @@ export function Signin(){
           }} label={"Sign in"} />
          
         </div>
-        <Warning label={"Don't have an account?"} where={"Sign up"} to={"/signup"} />
+        <Warning label={"Don't have an account?"} where={"Sign up"} to={"/"} />
       </div>
     </div>
   </div>
